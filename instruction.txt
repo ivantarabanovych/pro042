@@ -1,0 +1,29 @@
+1) Ініціалізація проєкту:
+    mkdir pro042
+    cd pro042
+    npm init -y
+    npm install parcel axios three
+2) Структура:
+    pro042/
+    ├── .parcelrc
+    ├── node_modules/
+    ├── package.json
+    ├── package-lock.json
+    ├── src/
+    │   ├── index.html
+    │   ├── main.js
+    │   ├── styles.css
+    │   ├── api/
+    │   │   └── figure-service.api.js
+    │   ├── client/
+    │   │   ├── FigureList.js
+    │   │   └── Form.js
+    │   ├── core/
+    │   │   └── Core.js
+    │   ├── models/
+    │   │   ├── Figure.js
+    │   │   └── GeometryTypes.js
+    │   └── three/
+    └──     └── Viewer.js
+3) Запуск за допомогою:
+    npx parcel src/index.html

@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;;;AAME;;;;AAIA","sources":["src/styles.css"],"sourcesContent":["body {\n    font-family: Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n  }\n  \n  #filters {\n    margin: 10px;\n  }\n  \n  #viewerRoot {\n    width: 100%;\n    height: 80vh;\n  }\n  "],"names":[],"version":3,"file":"index.4d663569.css.map","sourceRoot":"/__parcel_source_root/"}
